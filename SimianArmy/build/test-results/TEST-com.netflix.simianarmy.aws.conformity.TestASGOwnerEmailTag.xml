@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.conformity.TestASGOwnerEmailTag" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:31:57" hostname="SASORI" time="2.798">
+  <properties/>
+  <testcase name="testForOwnerTag" classname="com.netflix.simianarmy.aws.conformity.TestASGOwnerEmailTag" time="2.798"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

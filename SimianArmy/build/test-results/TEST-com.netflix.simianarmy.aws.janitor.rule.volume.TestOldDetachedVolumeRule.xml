@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" tests="14" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.029">
+  <properties/>
+  <testcase name="testAttachedVolume" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.001"/>
+  <testcase name="testDetachedVolumeNotOld" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testNgativeAgeThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testNgativeRetentionDaysWithOwner" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testNoMetaTag" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testNonVolumeResource" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testNullCalendar" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testNullResource" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testOldDetachedVolume" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.007"/>
+  <testcase name="testOldDetachedVolumeBeforeDaylightSavingsCutover" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.018"/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.002"/>
+  <testcase name="testTaggedAsNotMark" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testUnavailableVolume" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <testcase name="testUserSpecifiedTerminationDate" classname="com.netflix.simianarmy.aws.janitor.rule.volume.TestOldDetachedVolumeRule" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

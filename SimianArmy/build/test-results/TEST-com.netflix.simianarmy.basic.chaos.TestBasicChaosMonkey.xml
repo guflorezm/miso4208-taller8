@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" tests="28" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:04" hostname="SASORI" time="0.223">
+  <properties/>
+  <testcase name="testAll" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.017"/>
+  <testcase name="testDisabled" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <testcase name="testEnabledA" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.002"/>
+  <testcase name="testEnabledAwith0" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <testcase name="testEnabledAwithout1" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.0"/>
+  <testcase name="testEnabledB" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.005"/>
+  <testcase name="testFullProbability" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.004"/>
+  <testcase name="testGetValueFromCfgWithDefault" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <testcase name="testGlobalNotificationEnabled" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.003"/>
+  <testcase name="testMandatoryTerminationDisabled" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <testcase name="testMandatoryTerminationInsideWindow" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.002"/>
+  <testcase name="testMandatoryTerminationInsideWindowWithPreviousTermination" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.154"/>
+  <testcase name="testMandatoryTerminationNoOptInTime" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.005"/>
+  <testcase name="testMandatoryTerminationNotDefined" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.0"/>
+  <testcase name="testMandatoryTerminationOutsideWindow" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <testcase name="testMandatoryTerminationOutsideWindowWithPreviousTermination" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <testcase name="testMaxTerminationCountPerDayAsBiggerThanOne" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.002"/>
+  <testcase name="testMaxTerminationCountPerDayAsNegative" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <testcase name="testMaxTerminationCountPerDayAsOne" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.0"/>
+  <testcase name="testMaxTerminationCountPerDayAsSmallerThanOne" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.0"/>
+  <testcase name="testMaxTerminationCountPerDayAsVerySmall" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.0"/>
+  <testcase name="testMaxTerminationCountPerDayAsZero" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.0"/>
+  <testcase name="testMaxTerminationCountPerDayGroupLevel" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.009"/>
+  <testcase name="testNoProbability" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.0"/>
+  <testcase name="testNoProbabilityByName" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.004"/>
+  <testcase name="testNotificationEnabled" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.003"/>
+  <testcase name="testUnleashedEnabledA" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.002"/>
+  <testcase name="testUnleashedEnabledB" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosMonkey" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.081">
+  <properties/>
+  <testcase name="testBlockAllNetworkTraffic" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.015"/>
+  <testcase name="testBurnCpu" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.008"/>
+  <testcase name="testBurnIo" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.0"/>
+  <testcase name="testBurnIoWithoutBurnMoney" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.0"/>
+  <testcase name="testDetachVolumes" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.01"/>
+  <testcase name="testFailDns" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.002"/>
+  <testcase name="testFailDynamoDb" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.004"/>
+  <testcase name="testFailEc2" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.0"/>
+  <testcase name="testFailS3" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.0"/>
+  <testcase name="testFillDisk" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.015"/>
+  <testcase name="testFillDiskWithoutBurnMoney" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.001"/>
+  <testcase name="testKillProcess" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.005"/>
+  <testcase name="testNetworkCorruption" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.001"/>
+  <testcase name="testNetworkLatency" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.005"/>
+  <testcase name="testNetworkLoss" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.006"/>
+  <testcase name="testNullRoute" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.002"/>
+  <testcase name="testShutdownInstance" classname="com.netflix.simianarmy.chaos.TestChaosMonkeyArmy" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.TestRDSJanitorResourceTracker" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.027">
+  <properties/>
+  <testcase name="testGetResource" classname="com.netflix.simianarmy.aws.janitor.TestRDSJanitorResourceTracker" time="0.0"/>
+  <testcase name="testGetResourceNotFound" classname="com.netflix.simianarmy.aws.janitor.TestRDSJanitorResourceTracker" time="0.0"/>
+  <testcase name="testGetResources" classname="com.netflix.simianarmy.aws.janitor.TestRDSJanitorResourceTracker" time="0.012"/>
+  <testcase name="testInit" classname="com.netflix.simianarmy.aws.janitor.TestRDSJanitorResourceTracker" time="0.003"/>
+  <testcase name="testInsertNewResource" classname="com.netflix.simianarmy.aws.janitor.TestRDSJanitorResourceTracker" time="0.007"/>
+  <testcase name="testUpdateResource" classname="com.netflix.simianarmy.aws.janitor.TestRDSJanitorResourceTracker" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

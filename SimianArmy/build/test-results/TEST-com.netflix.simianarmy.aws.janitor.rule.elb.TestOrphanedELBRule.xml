@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.015">
+  <properties/>
+  <testcase name="testELBWithInstancesNoASGs" classname="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" time="0.0"/>
+  <testcase name="testELBWithNoInstancesNoASGs" classname="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" time="0.0"/>
+  <testcase name="testELBWithReferencedASGsNoInstances" classname="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" time="0.0"/>
+  <testcase name="testMissingCountsCheck" classname="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" time="0.0"/>
+  <testcase name="testMissingCountsCheckWithExtraFields" classname="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" time="0.0"/>
+  <testcase name="testMissingInstanceCountCheck" classname="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" time="0.0"/>
+  <testcase name="testMissingReferencedASGCountCheck" classname="com.netflix.simianarmy.aws.janitor.rule.elb.TestOrphanedELBRule" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

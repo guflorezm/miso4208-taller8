@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.009">
+  <properties/>
+  <testcase name="testNgativeLaunchConfigAgeThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.008"/>
+  <testcase name="testNgativeRetentionDays" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testNonLaunchConfigResource" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testNullCalendar" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testNullResource" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testOldLaunchConfigWithNullFlag" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testOldUnsedLaunchConfig" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testUnsedLaunchConfigNotOld" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testUsedLaunchConfig" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <testcase name="testUsedLaunchConfigNoLaunchTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.launchconfig.TestOldUnusedLaunchConfigRule" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

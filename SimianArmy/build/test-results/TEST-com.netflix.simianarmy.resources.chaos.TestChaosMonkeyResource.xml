@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.021">
+  <properties/>
+  <testcase name="testResource" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.01"/>
+  <testcase name="testTerminateNow" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.004"/>
+  <testcase name="testTerminateNowBadEventType" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.001"/>
+  <testcase name="testTerminateNowBadGroupNotExist" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.001"/>
+  <testcase name="testTerminateNowBadInput" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.001"/>
+  <testcase name="testTerminateNowDisabled" classname="com.netflix.simianarmy.resources.chaos.TestChaosMonkeyResource" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

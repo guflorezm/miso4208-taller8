@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:00" hostname="SASORI" time="3.761">
+  <properties/>
+  <testcase name="testEvenSelections[0](1.0)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.473"/>
+  <testcase name="testEvenSelections[1](0.9)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.393"/>
+  <testcase name="testEvenSelections[2](0.8)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.471"/>
+  <testcase name="testEvenSelections[3](0.7)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.37"/>
+  <testcase name="testEvenSelections[4](0.6)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.408"/>
+  <testcase name="testEvenSelections[5](0.5)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.321"/>
+  <testcase name="testEvenSelections[6](0.4)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.34"/>
+  <testcase name="testEvenSelections[7](0.3)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.301"/>
+  <testcase name="testEvenSelections[8](0.2)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.334"/>
+  <testcase name="testEvenSelections[9](0.1)" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.317"/>
+  <testcase name="testSelect" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.0"/>
+  <testcase name="testSelectWithProbMoreThanOne" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.0"/>
+  <testcase name="testSelectWithProbMoreThanOneWithFraction" classname="com.netflix.simianarmy.basic.chaos.TestBasicChaosInstanceSelector" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

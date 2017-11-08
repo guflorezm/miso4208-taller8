@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.015">
+  <properties/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.0"/>
+  <testcase name="testTaggedInstance" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.015"/>
+  <testcase name="testUntaggedInstanceWithOwner" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.0"/>
+  <testcase name="testUntaggedInstanceWithoutOwner" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.0"/>
+  <testcase name="testUntaggedResource" classname="com.netflix.simianarmy.aws.janitor.rule.generic.TestUntaggedRule" time="0.0"/>
+  <system-out><![CDATA[2017-11-07 20:32:23.655 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource i-12345678901234567  does not have the required tag tag1
+2017-11-07 20:32:23.670 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource i-12345678901234567  does not have the required tag tag2
+2017-11-07 20:32:23.670 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource i-12345678901234567  does not have the required tag tag2
+2017-11-07 20:32:23.670 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource ami-123123  does not have the required tag tag1
+2017-11-07 20:32:23.670 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource my-cool-asg  does not have the required tag tag1
+2017-11-07 20:32:23.670 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource snap-12345678901234567  does not have the required tag tag1
+2017-11-07 20:32:23.670 - ERROR UntaggedRule - [UntaggedRule.java:78] The resource my-cool-launch-configuration  does not have the required tag tag1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

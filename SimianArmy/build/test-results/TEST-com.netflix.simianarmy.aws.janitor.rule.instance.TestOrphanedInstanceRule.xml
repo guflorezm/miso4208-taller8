@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.0">
+  <properties/>
+  <testcase name="testNgativeAgeThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testNgativeRetentionDaysWithOwner" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testNgativeRetentionDaysWithoutOwner" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testNonInstanceResource" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testNonOrphanedInstances" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testNonRunningInstance" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testNullCalendar" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testNullResource" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testOrphanedInstancesWithLaunchTimeNotExpires" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testOrphanedInstancesWithOwner" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testOrphanedInstancesWithoutLaunchTime" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testOrphanedInstancesWithoutOwner" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.instance.TestOrphanedInstanceRule" time="0.0"/>
+  <system-out><![CDATA[2017-11-07 20:32:23.498 - ERROR OrphanedInstanceRule - [OrphanedInstanceRule.java:110] The instance i-12345678901234567 has no launch time.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

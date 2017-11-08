@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.chaos.TestCloudFormationChaosMonkey" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.01">
+  <properties/>
+  <testcase name="testCloudFormationChaosMonkeyIntegration" classname="com.netflix.simianarmy.basic.chaos.TestCloudFormationChaosMonkey" time="0.003"/>
+  <testcase name="testGetEffectiveProbability" classname="com.netflix.simianarmy.basic.chaos.TestCloudFormationChaosMonkey" time="0.0"/>
+  <testcase name="testGetLastOptInMilliseconds" classname="com.netflix.simianarmy.basic.chaos.TestCloudFormationChaosMonkey" time="0.0"/>
+  <testcase name="testIsGroupEnabled" classname="com.netflix.simianarmy.basic.chaos.TestCloudFormationChaosMonkey" time="0.006"/>
+  <testcase name="testIsMaxTerminationCountExceeded" classname="com.netflix.simianarmy.basic.chaos.TestCloudFormationChaosMonkey" time="0.001"/>
+  <testcase name="testNoSuffixInstanceGroup" classname="com.netflix.simianarmy.basic.chaos.TestCloudFormationChaosMonkey" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

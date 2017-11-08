@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.conformity.TestRDSConformityClusterTracker" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.046">
+  <properties/>
+  <testcase name="testGetCluster" classname="com.netflix.simianarmy.aws.conformity.TestRDSConformityClusterTracker" time="0.0"/>
+  <testcase name="testGetClusterNotFound" classname="com.netflix.simianarmy.aws.conformity.TestRDSConformityClusterTracker" time="0.005"/>
+  <testcase name="testGetClusters" classname="com.netflix.simianarmy.aws.conformity.TestRDSConformityClusterTracker" time="0.001"/>
+  <testcase name="testInit" classname="com.netflix.simianarmy.aws.conformity.TestRDSConformityClusterTracker" time="0.0"/>
+  <testcase name="testInsertNewCluster" classname="com.netflix.simianarmy.aws.conformity.TestRDSConformityClusterTracker" time="0.035"/>
+  <testcase name="testUpdateCluster" classname="com.netflix.simianarmy.aws.conformity.TestRDSConformityClusterTracker" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

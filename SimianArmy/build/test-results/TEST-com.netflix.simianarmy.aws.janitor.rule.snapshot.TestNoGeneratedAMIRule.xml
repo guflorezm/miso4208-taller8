@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" tests="15" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.044">
+  <properties/>
+  <testcase name="testNgativeAgeThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testNgativeRetentionDaysWithOwner" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testNonSnapshotResource" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testNullCalendar" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testNullResource" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testOldSnapshotWithoutAMI" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testOldSnapshotWithoutAMIWithOwnerOverride" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testOldSnapshotWithoutAMIWithoutOwnerOverride" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testSnapshotWithoutAMINotOld" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testSnapshotsWithoutLauchTime" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.016"/>
+  <testcase name="testTaggedAsNotMark" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testUncompletedVolume" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <testcase name="testUserSpecifiedTerminationDate" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.027"/>
+  <testcase name="testWithAMIs" classname="com.netflix.simianarmy.aws.janitor.rule.snapshot.TestNoGeneratedAMIRule" time="0.0"/>
+  <system-out><![CDATA[2017-11-07 20:32:23.395 - ERROR NoGeneratedAMIRule - [NoGeneratedAMIRule.java:134] Snapshot snap-12345678901234567 does not have a creation time.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

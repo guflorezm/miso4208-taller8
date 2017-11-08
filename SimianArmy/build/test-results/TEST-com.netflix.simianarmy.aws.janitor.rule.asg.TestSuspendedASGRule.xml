@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:23" hostname="SASORI" time="0.016">
+  <properties/>
+  <testcase name="testASGWithInstances" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testASGWithoutInstanceAndNonZeroSize" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testEmptyASGNotSuspended" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testEmptyASGSuspendedLessThanThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testEmptyASGSuspendedMoreThanThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testNgativeLaunchConfigAgeThreshold" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testNgativeRetentionDays" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testNonASGResource" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testNullCalendar" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testNullResource" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <testcase name="testNullValidator" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.015"/>
+  <testcase name="testResourceWithExpectedTerminationTimeSet" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.001"/>
+  <testcase name="testSuspensionTimeIncorrectFormat" classname="com.netflix.simianarmy.aws.janitor.rule.asg.TestSuspendedASGRule" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

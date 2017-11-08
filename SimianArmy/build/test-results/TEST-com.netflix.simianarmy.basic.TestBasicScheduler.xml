@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.simianarmy.basic.TestBasicScheduler" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-08T01:32:22" hostname="SASORI" time="0.651">
+  <properties/>
+  <testcase name="testConstructors" classname="com.netflix.simianarmy.basic.TestBasicScheduler" time="0.0"/>
+  <testcase name="testDelayedStart" classname="com.netflix.simianarmy.basic.TestBasicScheduler" time="0.126"/>
+  <testcase name="testRunner" classname="com.netflix.simianarmy.basic.TestBasicScheduler" time="0.525"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
