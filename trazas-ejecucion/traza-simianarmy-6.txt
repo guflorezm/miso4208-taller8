@@ -1,0 +1,337 @@
+C:\UniAndes\Pruebas\SimianArmy>gradlew jettyRun
+Inferred project: simianarmy, version: 2.6.0-SNAPSHOT
+[buildinfo] Not using buildInfo properties file for this build.
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:jettyRun
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/GERSON/.gradle/wrapper/dists/gradle-2.11-bin/452syho4l32rlk2s8ivdjogs8/gradle-2.11/lib/gradle-core-2.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/GERSON/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.6.1/bd245d6746cdd4e6203e976e21d597a46f115802/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+2017-11-07 14:49:39.621 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:125] using client properties /client.properties
+2017-11-07 14:49:39.621 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:104] using standard client for simianarmy.client.context.class
+2017-11-07 14:49:39.621 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:104] using standard client for simianarmy.client.chaos.class
+2017-11-07 14:49:39.621 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:52] Adding Chaos Monkey.
+2017-11-07 14:49:39.918 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /simianarmy.properties
+2017-11-07 14:49:39.918 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /client.properties
+2017-11-07 14:49:39.934 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /chaos.properties
+2017-11-07 14:49:39.934 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:114] The following are properties in the context.
+2017-11-07 14:49:39.934 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.ASG.monkey-target.probability = 1.0
+2017-11-07 14:49:39.934 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.networkcorruption.enabled = false
+2017-11-07 14:49:39.934 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.shutdowninstance.enabled = true
+2017-11-07 14:49:39.934 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.faildynamodb.enabled = false
+2017-11-07 14:49:39.934 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.timezone = America/Los_Angeles
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.nullroute.enabled = false
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.mandatoryTermination.windowInDays = 32
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.burnmoney = false
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.leashed = false
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.openHour = 9
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.notification.sourceEmail = gerflomo@gmail.com
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequencyUnit = HOURS
+2017-11-07 14:49:39.950 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.networklatency.enabled = false
+2017-11-07 14:49:39.965 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.notification.global.receiverEmail = gu.florez@uniandes.edu.co
+2017-11-07 14:49:39.965 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.ASG.probability = 1.0
+2017-11-07 14:49:39.965 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.detachvolumes.enabled = false
+2017-11-07 14:49:39.965 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.enabled = true
+2017-11-07 14:49:39.965 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.ASG.maxTerminationsPerDay = 1.0
+2017-11-07 14:49:39.965 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.mandatoryTermination.enabled = false
+2017-11-07 14:49:39.965 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.burncpu.enabled = false
+2017-11-07 14:49:39.981 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.recorder.sdb.domain = SIMIAN_ARMY
+2017-11-07 14:49:39.981 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.killprocesses.enabled = false
+2017-11-07 14:49:39.981 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.accountName = default
+2017-11-07 14:49:39.981 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.fails3.enabled = false
+2017-11-07 14:49:39.981 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.failec2.enabled = false
+2017-11-07 14:49:39.981 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.region = us-west-2
+2017-11-07 14:49:39.981 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.filldisk.enabled = false
+2017-11-07 14:49:39.996 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.ASG.enabled = false
+2017-11-07 14:49:39.996 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.ASG.monkey-target.enabled = true
+2017-11-07 14:49:39.996 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.blockallnetworktraffic.enabled = false
+2017-11-07 14:49:39.996 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.closeHour = 15
+2017-11-07 14:49:39.996 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.burnio.enabled = false
+2017-11-07 14:49:40.012 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.notification.global.enabled = true
+2017-11-07 14:49:40.012 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.isMonkeyTime = true
+2017-11-07 14:49:40.012 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequency = 2
+2017-11-07 14:49:40.012 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.aws.email.region = us-west-2
+2017-11-07 14:49:40.012 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.threads = 1
+2017-11-07 14:49:40.012 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.mandatoryTermination.defaultProbability = 0.5
+2017-11-07 14:49:40.028 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.networkloss.enabled = false
+2017-11-07 14:49:40.028 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.chaos.faildns.enabled = false
+2017-11-07 14:49:41.818 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.calendar.class
+2017-11-07 14:49:41.833 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.client.recorder.class
+2017-11-07 14:49:44.008 - INFO  ChaosType - [ChaosType.java:63] ChaosType: ShutdownInstance: enabled=true
+2017-11-07 14:49:44.024 - INFO  ChaosType - [ChaosType.java:63] ChaosType: BlockAllNetworkTraffic: enabled=false
+2017-11-07 14:49:44.024 - INFO  ChaosType - [ChaosType.java:63] ChaosType: DetachVolumes: enabled=false
+2017-11-07 14:49:44.024 - INFO  ChaosType - [ChaosType.java:63] ChaosType: BurnCpu: enabled=false
+2017-11-07 14:49:44.024 - INFO  ChaosType - [ChaosType.java:63] ChaosType: BurnIO: enabled=false
+2017-11-07 14:49:44.024 - INFO  ChaosType - [ChaosType.java:63] ChaosType: KillProcesses: enabled=false
+2017-11-07 14:49:44.040 - INFO  ChaosType - [ChaosType.java:63] ChaosType: NullRoute: enabled=false
+2017-11-07 14:49:44.040 - INFO  ChaosType - [ChaosType.java:63] ChaosType: FailEc2: enabled=false
+2017-11-07 14:49:44.040 - INFO  ChaosType - [ChaosType.java:63] ChaosType: FailDns: enabled=false
+2017-11-07 14:49:44.040 - INFO  ChaosType - [ChaosType.java:63] ChaosType: FailDynamoDb: enabled=false
+2017-11-07 14:49:44.040 - INFO  ChaosType - [ChaosType.java:63] ChaosType: FailS3: enabled=false
+2017-11-07 14:49:44.040 - INFO  ChaosType - [ChaosType.java:63] ChaosType: FillDisk: enabled=false
+2017-11-07 14:49:44.055 - INFO  ChaosType - [ChaosType.java:63] ChaosType: NetworkCorruption: enabled=false
+2017-11-07 14:49:44.055 - INFO  ChaosType - [ChaosType.java:63] ChaosType: NetworkLatency: enabled=false
+2017-11-07 14:49:44.055 - INFO  ChaosType - [ChaosType.java:63] ChaosType: NetworkLoss: enabled=false
+2017-11-07 14:49:44.055 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:54] Adding Volume Tagging Monkey.
+2017-11-07 14:49:44.071 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /simianarmy.properties
+2017-11-07 14:49:44.071 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /client.properties
+2017-11-07 14:49:44.071 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /volumeTagging.properties
+2017-11-07 14:49:44.071 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:114] The following are properties in the context.
+2017-11-07 14:49:44.071 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.aws.email.region = us-west-2
+2017-11-07 14:49:44.071 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.timezone = America/Los_Angeles
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.accountName = default
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.isMonkeyTime = true
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.recorder.sdb.domain = SIMIAN_ARMY
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.closeHour = 15
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.region = us-west-2
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequency = 2
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.openHour = 9
+2017-11-07 14:49:44.087 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.volumeTagging.leashed = true
+2017-11-07 14:49:44.102 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequencyUnit = HOURS
+2017-11-07 14:49:44.102 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.threads = 1
+2017-11-07 14:49:44.102 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.volumeTagging.enabled = true
+2017-11-07 14:49:45.874 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.calendar.class
+2017-11-07 14:49:45.874 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.client.recorder.class
+2017-11-07 14:49:47.440 - INFO  AWSClient - [AWSClient.java:457] Getting all EC2 instances in region us-west-2.
+2017-11-07 14:49:48.518 - INFO  AWSClient - [AWSClient.java:474] Got 1 EC2 instances in region us-west-2.
+2017-11-07 14:49:48.518 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:56] Adding Janitor Monkey.
+2017-11-07 14:49:48.518 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /simianarmy.properties
+2017-11-07 14:49:48.533 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /client.properties
+2017-11-07 14:49:48.533 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /janitor.properties
+2017-11-07 14:49:48.533 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:114] The following are properties in the context.
+2017-11-07 14:49:48.533 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.notification.sourceEmail = gerflomo@gmail.com
+2017-11-07 14:49:48.533 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.orphanedInstanceRule.retentionDaysWithOwner = 3
+2017-11-07 14:49:48.533 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.orphanedInstanceRule.retentionDaysWithoutOwner = 8
+2017-11-07 14:49:48.549 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.timezone = America/Los_Angeles
+2017-11-07 14:49:48.549 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.Eureka.enabled = false
+2017-11-07 14:49:48.549 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldEmptyASGRule.enabled = true
+2017-11-07 14:49:48.549 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.openHour = 11
+2017-11-07 14:49:48.549 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.untaggedRule.retentionDaysWithoutOwner = 2
+2017-11-07 14:49:48.549 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequencyUnit = HOURS
+2017-11-07 14:49:48.549 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.deleteOnTerminationRule.retentionDays = 3
+2017-11-07 14:49:48.565 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldUnusedLaunchConfigRule.enabled = true
+2017-11-07 14:49:48.565 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.noGeneratedAMIRule.ageThreshold = 30
+2017-11-07 14:49:48.565 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.summaryEmail.to = gu.florez@uniandes.edu.co
+2017-11-07 14:49:48.565 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.deleteOnTerminationRule.enabled = true
+2017-11-07 14:49:48.565 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.recorder.sdb.domain = SIMIAN_ARMY
+2017-11-07 14:49:48.580 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.untaggedRule.requiredTags = owner, purpose, project
+2017-11-07 14:49:48.580 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.untaggedRule.enabled = false
+2017-11-07 14:49:48.580 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.accountName = default
+2017-11-07 14:49:48.580 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldDetachedVolumeRule.enabled = true
+2017-11-07 14:49:48.580 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.unusedImageRule.enabled = false
+2017-11-07 14:49:48.580 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.untaggedRule.resources = Instance, ASG, EBS_Volume, EBS_Snapshot
+2017-11-07 14:49:48.596 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.suspendedASGRule.retentionDays = 5
+2017-11-07 14:49:48.596 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldDetachedVolumeRule.retentionDays = 7
+2017-11-07 14:49:48.596 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.unusedImageRule.retentionDays = 3
+2017-11-07 14:49:48.596 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.orphanedInstanceRule.enabled = true
+2017-11-07 14:49:48.596 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldUnusedLaunchConfigRule.retentionDays = 3
+2017-11-07 14:49:48.596 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.region = us-west-2
+2017-11-07 14:49:48.596 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.orphanedInstanceRule.opsworks.parentage = false
+2017-11-07 14:49:48.612 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.leashed = false
+2017-11-07 14:49:48.612 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldEmptyASGRule.retentionDays = 10
+2017-11-07 14:49:48.612 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.noGeneratedAMIRule.retentionDays = 7
+2017-11-07 14:49:48.612 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.suspendedASGRule.enabled = true
+2017-11-07 14:49:48.612 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldDetachedVolumeRule.detachDaysThreshold = 30
+2017-11-07 14:49:48.612 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.enabledResources = Instance, ASG, EBS_Volume, EBS_Snapshot, Launch_Config
+2017-11-07 14:49:48.612 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.closeHour = 11
+2017-11-07 14:49:48.627 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.unusedImageRule.lastReferenceDaysThreshold = 45
+2017-11-07 14:49:48.627 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.suspendedASGRule.suspensionAgeThreshold = 2
+2017-11-07 14:49:48.627 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.noGeneratedAMIRule.enabled = true
+2017-11-07 14:49:48.627 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.notification.daysBeforeTermination = 2
+2017-11-07 14:49:48.627 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.enabled = true
+2017-11-07 14:49:48.643 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.isMonkeyTime = true
+2017-11-07 14:49:48.643 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.notification.defaultEmail = gerflomo@gmail.com
+2017-11-07 14:49:48.643 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.orphanedInstanceRule.instanceAgeThreshold = 2
+2017-11-07 14:49:48.643 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldEmptyASGRule.launchConfigAgeThreshold = 50
+2017-11-07 14:49:48.643 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.untaggedRule.retentionDaysWithOwner = 2
+2017-11-07 14:49:48.643 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.image.crawler.lookBackDays = 60
+2017-11-07 14:49:48.658 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequency = 2
+2017-11-07 14:49:48.658 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.aws.email.region = us-west-2
+2017-11-07 14:49:48.658 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.rule.oldUnusedLaunchConfigRule.ageThreshold = 4
+2017-11-07 14:49:48.658 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.janitor.resources.sdb.domain = SIMIAN_ARMY
+2017-11-07 14:49:48.658 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.threads = 1
+2017-11-07 14:49:50.449 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.calendar.class
+2017-11-07 14:49:50.449 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.client.recorder.class
+2017-11-07 14:49:51.074 - INFO  BasicJanitorMonkeyContext - [BasicJanitorMonkeyContext.java:184] Discovery/Eureka is not enabled, use the dummy instance validator.
+2017-11-07 14:49:51.121 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:58] Adding Conformity Monkey.
+2017-11-07 14:49:51.137 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /simianarmy.properties
+2017-11-07 14:49:51.137 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /client.properties
+2017-11-07 14:49:51.137 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:191] loading properties file: /conformity.properties
+2017-11-07 14:49:51.137 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:114] The following are properties in the context.
+2017-11-07 14:49:51.137 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.openHour = 0
+2017-11-07 14:49:51.137 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.notification.closeHour = 24
+2017-11-07 14:49:51.137 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.InstanceTooOld.instanceAgeThreshold = 180
+2017-11-07 14:49:51.152 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.InstanceInSecurityGroup.enabled = true
+2017-11-07 14:49:51.152 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.closeHour = 24
+2017-11-07 14:49:51.152 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.cluster.monkey-target.ownerEmail = gu.florez@uniandes.edu.co
+2017-11-07 14:49:51.152 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.summaryEmail.to = gu.florez@uniandes.edu.co
+2017-11-07 14:49:51.152 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.InstanceTooOld.enabled = true
+2017-11-07 14:49:51.152 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.SameZonesInElbAndAsg.enabled = true
+2017-11-07 14:49:51.152 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.accountName = default
+2017-11-07 14:49:51.168 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.threads = 1
+2017-11-07 14:49:51.168 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.enabled = true
+2017-11-07 14:49:51.168 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.InstanceHasStatusUrl.enabled = true
+2017-11-07 14:49:51.168 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.InstanceIsHealthyInEureka.enabled = true
+2017-11-07 14:49:51.168 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequencyUnit = HOURS
+2017-11-07 14:49:51.168 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.client.aws.region = us-west-2
+2017-11-07 14:49:51.184 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.leashed = false
+2017-11-07 14:49:51.184 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.sdb.domain = SIMIAN_ARMY
+2017-11-07 14:49:51.184 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.notification.openHour = 0
+2017-11-07 14:49:51.184 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.notification.sourceEmail = gerflomo@gmail.com
+2017-11-07 14:49:51.184 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.scheduler.frequency = 2
+2017-11-07 14:49:51.184 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.aws.email.region = us-west-2
+2017-11-07 14:49:51.199 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.InstanceHasHealthCheckUrl.enabled = true
+2017-11-07 14:49:51.199 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.Eureka.enabled = false
+2017-11-07 14:49:51.199 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.timezone = America/Los_Angeles
+2017-11-07 14:49:51.199 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.notification.defaultEmail = gerflomo@gmail.com
+2017-11-07 14:49:51.199 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.calendar.isMonkeyTime = true
+2017-11-07 14:49:51.199 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.conformity.rule.InstanceInSecurityGroup.requiredSecurityGroups = nf-infrastructure, nf-datacenter
+2017-11-07 14:49:51.199 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:118] simianarmy.recorder.sdb.domain = SIMIAN_ARMY
+2017-11-07 14:49:52.998 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.calendar.class
+2017-11-07 14:49:52.998 - INFO  BasicSimianArmyContext - [BasicSimianArmyContext.java:449] using standard class for simianarmy.client.recorder.class
+2017-11-07 14:49:53.735 - INFO  BasicConformityMonkeyContext - [BasicConformityMonkeyContext.java:102] Conformity Monkey is running in: [us-west-2]
+2017-11-07 14:49:53.735 - INFO  BasicConformityMonkeyContext - [BasicConformityMonkeyContext.java:141] Discovery/Eureka is not enabled, the conformity rules that need Eureka are not added.
+2017-11-07 14:49:53.750 - INFO  MonkeyRunner - [MonkeyRunner.java:56] Starting CHAOS Monkey
+2017-11-07 14:49:54.000 - INFO  Monkey - [Monkey.java:132] CHAOS Monkey Running ...
+2017-11-07 14:49:54.000 - INFO  MonkeyRunner - [MonkeyRunner.java:56] Starting VOLUME_TAGGING Monkey
+2017-11-07 14:49:54.000 - INFO  AWSClient - [AWSClient.java:338] Getting all auto-scaling groups in region us-west-2.
+2017-11-07 14:49:54.724 - INFO  MonkeyRunner - [MonkeyRunner.java:56] Starting JANITOR Monkey
+2017-11-07 14:49:54.724 - INFO  Monkey - [Monkey.java:132] VOLUME_TAGGING Monkey Running ...
+2017-11-07 14:49:54.724 - INFO  AWSClient - [AWSClient.java:652] Getting all EBS volumes in region us-west-2.
+2017-11-07 14:49:54.914 - INFO  MonkeyRunner - [MonkeyRunner.java:56] Starting CONFORMITY Monkey
+2017-11-07 14:49:54.914 - INFO  Monkey - [Monkey.java:132] JANITOR Monkey Running ...
+2017-11-07 14:49:54.914 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:102] Marking resources with 5 janitors.
+2017-11-07 14:49:54.914 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:112] Running ASG janitor for region us-west-2
+2017-11-07 14:49:55.086 - INFO  Monkey - [Monkey.java:132] CONFORMITY Monkey Running ...
+2017-11-07 14:49:55.086 - INFO  AWSClusterCrawler - [AWSClusterCrawler.java:83] Crawling clusters in region us-west-2
+2017-11-07 14:49:55.086 - INFO  AWSClient - [AWSClient.java:338] Getting all auto-scaling groups in region us-west-2.
+2017-11-07 14:49:55.649 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type ASG and state MARKED and region us-west-2
+2017-11-07 14:49:55.649 - INFO  AWSClient - [AWSClient.java:486] Getting all launch configurations in region us-west-2.
+2017-11-07 14:49:55.649 - INFO  AWSClient - [AWSClient.java:665] Got 1 EBS volumes in region us-west-2.
+2017-11-07 14:49:55.649 - INFO  VolumeTaggingMonkey - [VolumeTaggingMonkey.java:146] Trying to tag 1 volumes for Janitor Monkey meta data.
+2017-11-07 14:49:55.649 - INFO  VolumeTaggingMonkey - [VolumeTaggingMonkey.java:265] Setting tag JANITOR_META to 'instance=i-0f70c010d516f9f10;owner=;detachTime=' for volume vol-0c4569fba5b5c7808
+2017-11-07 14:49:55.649 - INFO  VolumeTaggingMonkey - [VolumeTaggingMonkey.java:270] Volume tagging monkey is leashed. No real change is made to the volume.
+2017-11-07 14:49:55.664 - INFO  Monkey - [Monkey.java:138] Reporting what I did...
+
+2017-11-07 14:49:56.743 - INFO  AWSClient - [AWSClient.java:359] Got 1 auto-scaling groups in region us-west-2.
+2017-11-07 14:49:56.743 - INFO  AWSClient - [AWSClient.java:359] Got 1 auto-scaling groups in region us-west-2.
+2017-11-07 14:49:56.743 - INFO  AWSClusterCrawler - [AWSClusterCrawler.java:170] Found owner email gu.florez@uniandes.edu.co for cluster monkey-target in configuration simianarmy.conformity.cluster.monkey-target.ownerEmail.
+2017-11-07 14:49:56.743 - INFO  AWSClient - [AWSClient.java:457] Getting all EC2 instances in region us-west-2.
+2017-11-07 14:49:56.961 - INFO  BasicChaosMonkey - [BasicChaosMonkey.java:421] The count of terminations for group monkey-target [ASG] in the last 1 days is 1, equal or greater than the max count threshold 1
+2017-11-07 14:49:56.961 - INFO  Monkey - [Monkey.java:138] Reporting what I did...
+
+2017-11-07 14:49:57.540 - INFO  AWSClient - [AWSClient.java:474] Got 1 EC2 instances in region us-west-2.
+2017-11-07 14:49:57.540 - INFO  SimpleDBConformityClusterTracker - [SimpleDBConformityClusterTracker.java:168] Query to retrieve clusters for regions us-west-2 is 'select * from `SIMIAN_ARMY` where cluster is not null and region in ('us-west-2') '
+2017-11-07 14:49:58.508 - INFO  SimpleDBConformityClusterTracker - [SimpleDBConformityClusterTracker.java:180] Retrieved 2 clusters from SimpleDB in domain SIMIAN_ARMY and regions us-west-2
+2017-11-07 14:49:58.508 - INFO  SimpleDBConformityClusterTracker - [SimpleDBConformityClusterTracker.java:143] Deleting 1 clusters
+2017-11-07 14:49:58.508 - INFO  SimpleDBConformityClusterTracker - [SimpleDBConformityClusterTracker.java:145] Deleting cluster SoloInstances
+2017-11-07 14:49:58.759 - INFO  Monkey - [Monkey.java:138] Reporting what I did...
+
+2017-11-07 14:49:58.759 - ERROR Monkey$1 - [Monkey.java:157] CONFORMITY Monkey Error:
+com.amazonaws.services.simpledb.model.AmazonSimpleDBException: User (arn:aws:iam::372116633413:user/SimianArmy) does not have permission to perform (sdb:DeleteAttributes) on resource (arn:aws:sdb:us-west-2:372116633413:domain/SIMIAN_ARMY). Contact account owner. (Service: AmazonSimpleDB; Status Code: 403; Error Code: AuthorizationFailure; Request ID: 7313cefc-94e9-d417-8573-16fcecf80305)
+        at com.amazonaws.http.AmazonHttpClient.handleErrorResponse(AmazonHttpClient.java:1386)
+        at com.amazonaws.http.AmazonHttpClient.executeOneRequest(AmazonHttpClient.java:939)
+        at com.amazonaws.http.AmazonHttpClient.executeHelper(AmazonHttpClient.java:714)
+        at com.amazonaws.http.AmazonHttpClient.doExecute(AmazonHttpClient.java:465)
+        at com.amazonaws.http.AmazonHttpClient.executeWithTimer(AmazonHttpClient.java:427)
+        at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:376)
+        at com.amazonaws.services.simpledb.AmazonSimpleDBClient.doInvoke(AmazonSimpleDBClient.java:1058)
+        at com.amazonaws.services.simpledb.AmazonSimpleDBClient.invoke(AmazonSimpleDBClient.java:1028)
+        at com.amazonaws.services.simpledb.AmazonSimpleDBClient.deleteAttributes(AmazonSimpleDBClient.java:595)
+        at com.netflix.simianarmy.aws.conformity.SimpleDBConformityClusterTracker.deleteClusters(SimpleDBConformityClusterTracker.java:146)
+        at com.netflix.simianarmy.basic.conformity.BasicConformityMonkey.doMonkeyBusiness(BasicConformityMonkey.java:137)
+        at com.netflix.simianarmy.Monkey.run(Monkey.java:134)
+        at com.netflix.simianarmy.Monkey$1.run(Monkey.java:155)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+2017-11-07 14:49:59.727 - INFO  AWSClient - [AWSClient.java:506] Got 1 launch configurations in region us-west-2.
+2017-11-07 14:49:59.727 - INFO  AWSClient - [AWSClient.java:338] Getting all auto-scaling groups in region us-west-2.
+2017-11-07 14:50:00.462 - INFO  AWSClient - [AWSClient.java:359] Got 1 auto-scaling groups in region us-west-2.
+2017-11-07 14:50:00.477 - INFO  AbstractJanitor - [AbstractJanitor.java:239] Looking for cleanup candidate in 1 crawled resources. LeashMode=false
+2017-11-07 14:50:00.477 - INFO  OldEmptyASGRule - [OldEmptyASGRule.java:112] ASG monkey-target has active instance.
+2017-11-07 14:50:00.477 - INFO  BasicJanitorRuleEngine - [BasicJanitorRuleEngine.java:101] Resource monkey-target is not marked as a cleanup candidate.
+2017-11-07 14:50:00.477 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:119] Marked 0 resources of type ASG in the last run.
+2017-11-07 14:50:00.477 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:121] Unmarked 0 resources of type ASG in the last run.
+2017-11-07 14:50:00.477 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:112] Running INSTANCE janitor for region us-west-2
+2017-11-07 14:50:00.727 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type INSTANCE and state MARKED and region us-west-2
+2017-11-07 14:50:00.727 - INFO  AWSClient - [AWSClient.java:423] Getting all auto-scaling instances in region us-west-2.
+2017-11-07 14:50:01.478 - INFO  AWSClient - [AWSClient.java:445] Got 1 auto-scaling instances.
+2017-11-07 14:50:01.478 - INFO  AWSClient - [AWSClient.java:457] Getting all EC2 instances in region us-west-2.
+2017-11-07 14:50:02.306 - INFO  AWSClient - [AWSClient.java:474] Got 1 EC2 instances in region us-west-2.
+2017-11-07 14:50:02.321 - INFO  InstanceJanitorCrawler - [InstanceJanitorCrawler.java:105] instance i-0f70c010d516f9f10 has a ASG tag name monkey-target.
+2017-11-07 14:50:02.321 - INFO  AbstractJanitor - [AbstractJanitor.java:239] Looking for cleanup candidate in 1 crawled resources. LeashMode=false
+2017-11-07 14:50:02.321 - INFO  BasicJanitorRuleEngine - [BasicJanitorRuleEngine.java:101] Resource i-0f70c010d516f9f10 is not marked as a cleanup candidate.
+2017-11-07 14:50:02.337 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:119] Marked 0 resources of type INSTANCE in the last run.
+2017-11-07 14:50:02.337 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:121] Unmarked 0 resources of type INSTANCE in the last run.
+2017-11-07 14:50:02.337 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:112] Running EBS_VOLUME janitor for region us-west-2
+2017-11-07 14:50:02.525 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type EBS_VOLUME and state MARKED and region us-west-2
+2017-11-07 14:50:02.540 - INFO  AWSClient - [AWSClient.java:652] Getting all EBS volumes in region us-west-2.
+2017-11-07 14:50:03.275 - INFO  AWSClient - [AWSClient.java:665] Got 1 EBS volumes in region us-west-2.
+2017-11-07 14:50:03.275 - INFO  AbstractJanitor - [AbstractJanitor.java:239] Looking for cleanup candidate in 1 crawled resources. LeashMode=false
+2017-11-07 14:50:03.275 - INFO  BasicJanitorRuleEngine - [BasicJanitorRuleEngine.java:101] Resource vol-0c4569fba5b5c7808 is not marked as a cleanup candidate.
+2017-11-07 14:50:03.275 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:119] Marked 0 resources of type EBS_VOLUME in the last run.
+2017-11-07 14:50:03.275 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:121] Unmarked 0 resources of type EBS_VOLUME in the last run.
+2017-11-07 14:50:03.275 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:112] Running EBS_SNAPSHOT janitor for region us-west-2
+2017-11-07 14:50:03.462 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type EBS_SNAPSHOT and state MARKED and region us-west-2
+2017-11-07 14:50:03.462 - INFO  AWSClient - [AWSClient.java:719] Getting all AMIs in region us-west-2.
+2017-11-07 14:57:21.179 - INFO  AWSClient - [AWSClient.java:732] Got 70250 AMIs in region us-west-2.
+2017-11-07 14:57:21.382 - INFO  AWSClient - [AWSClient.java:677] Getting all EBS snapshots in region us-west-2.
+2017-11-07 14:57:23.060 - INFO  AWSClient - [AWSClient.java:692] Got 0 EBS snapshots in region us-west-2.
+2017-11-07 14:57:23.075 - INFO  AbstractJanitor - [AbstractJanitor.java:239] Looking for cleanup candidate in 0 crawled resources. LeashMode=false
+2017-11-07 14:57:23.075 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:119] Marked 0 resources of type EBS_SNAPSHOT in the last run.
+2017-11-07 14:57:23.075 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:121] Unmarked 0 resources of type EBS_SNAPSHOT in the last run.
+2017-11-07 14:57:23.075 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:112] Running LAUNCH_CONFIG janitor for region us-west-2
+2017-11-07 14:57:24.842 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type LAUNCH_CONFIG and state MARKED and region us-west-2
+2017-11-07 14:57:24.858 - INFO  AWSClient - [AWSClient.java:338] Getting all auto-scaling groups in region us-west-2.
+2017-11-07 14:57:25.655 - INFO  AWSClient - [AWSClient.java:359] Got 1 auto-scaling groups in region us-west-2.
+2017-11-07 14:57:25.670 - INFO  AWSClient - [AWSClient.java:486] Getting all launch configurations in region us-west-2.
+2017-11-07 14:57:26.345 - INFO  AWSClient - [AWSClient.java:506] Got 1 launch configurations in region us-west-2.
+2017-11-07 14:57:26.345 - INFO  AbstractJanitor - [AbstractJanitor.java:239] Looking for cleanup candidate in 1 crawled resources. LeashMode=false
+2017-11-07 14:57:26.345 - INFO  BasicJanitorRuleEngine - [BasicJanitorRuleEngine.java:101] Resource lc1 is not marked as a cleanup candidate.
+2017-11-07 14:57:26.345 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:119] Marked 0 resources of type LAUNCH_CONFIG in the last run.
+2017-11-07 14:57:26.345 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:121] Unmarked 0 resources of type LAUNCH_CONFIG in the last run.
+2017-11-07 14:57:27.111 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type null and state MARKED and region us-west-2
+2017-11-07 14:57:27.111 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:131] Cleaning resources with 5 janitors.
+2017-11-07 14:57:27.283 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type ASG and state MARKED and region us-west-2
+2017-11-07 14:57:27.283 - INFO  AbstractJanitor - [AbstractJanitor.java:304] Checking 0 marked resources for cleanup. LeashMode=false
+2017-11-07 14:57:27.283 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:139] Cleaned 0 resources of type ASG in the last run.
+2017-11-07 14:57:27.283 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:141] Failed to clean 0 resources of type ASG in the last run.
+2017-11-07 14:57:27.440 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type INSTANCE and state MARKED and region us-west-2
+2017-11-07 14:57:27.455 - INFO  AbstractJanitor - [AbstractJanitor.java:304] Checking 0 marked resources for cleanup. LeashMode=false
+2017-11-07 14:57:27.455 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:139] Cleaned 0 resources of type INSTANCE in the last run.
+2017-11-07 14:57:27.455 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:141] Failed to clean 0 resources of type INSTANCE in the last run.
+2017-11-07 14:57:28.556 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type EBS_VOLUME and state MARKED and region us-west-2
+2017-11-07 14:57:28.556 - INFO  AbstractJanitor - [AbstractJanitor.java:304] Checking 0 marked resources for cleanup. LeashMode=false
+2017-11-07 14:57:28.556 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:139] Cleaned 0 resources of type EBS_VOLUME in the last run.
+2017-11-07 14:57:28.556 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:141] Failed to clean 0 resources of type EBS_VOLUME in the last run.
+2017-11-07 14:57:29.571 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type EBS_SNAPSHOT and state MARKED and region us-west-2
+2017-11-07 14:57:29.571 - INFO  AbstractJanitor - [AbstractJanitor.java:304] Checking 0 marked resources for cleanup. LeashMode=false
+2017-11-07 14:57:29.571 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:139] Cleaned 0 resources of type EBS_SNAPSHOT in the last run.
+2017-11-07 14:57:29.587 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:141] Failed to clean 0 resources of type EBS_SNAPSHOT in the last run.
+2017-11-07 14:57:29.743 - INFO  SimpleDBJanitorResourceTracker - [SimpleDBJanitorResourceTracker.java:117] Retrieved 0 resources from SimpleDB in domain SIMIAN_ARMY for resource type LAUNCH_CONFIG and state MARKED and region us-west-2
+2017-11-07 14:57:29.743 - INFO  AbstractJanitor - [AbstractJanitor.java:304] Checking 0 marked resources for cleanup. LeashMode=false
+2017-11-07 14:57:29.743 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:139] Cleaned 0 resources of type LAUNCH_CONFIG in the last run.
+2017-11-07 14:57:29.743 - INFO  BasicJanitorMonkey - [BasicJanitorMonkey.java:141] Failed to clean 0 resources of type LAUNCH_CONFIG in the last run.
+2017-11-07 14:57:30.666 - INFO  AWSEmailNotifier - [AWSEmailNotifier.java:88] Email to gu.florez@uniandes.edu.co, result id is 0101015f980f25a8-ffb91478-48c2-48fc-9a67-338e1e6dc0ae-000000, subject is Janitor monkey execution summary (default, us-west-2)
+2017-11-07 14:57:30.666 - INFO  Monkey - [Monkey.java:138] Reporting what I did...
+
+2017-11-07 16:07:01.312 - INFO  MonkeyRunner - [MonkeyRunner.java:66] Stopping CHAOS Monkey
+2017-11-07 16:07:01.312 - INFO  MonkeyRunner - [MonkeyRunner.java:66] Stopping VOLUME_TAGGING Monkey
+2017-11-07 16:07:01.312 - INFO  MonkeyRunner - [MonkeyRunner.java:66] Stopping JANITOR Monkey
+2017-11-07 16:07:01.312 - INFO  MonkeyRunner - [MonkeyRunner.java:66] Stopping CONFORMITY Monkey
+2017-11-07 16:07:01.327 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:148] Stopping Chaos Monkey.
+2017-11-07 16:07:01.327 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:150] Stopping Volume Tagging Monkey.
+2017-11-07 16:07:01.327 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:152] Stopping Janitor Monkey.
+2017-11-07 16:07:01.327 - INFO  BasicMonkeyServer - [BasicMonkeyServer.java:154] Stopping Conformity Monkey.
+
+BUILD SUCCESSFUL
+
+Total time: 1 hrs 17 mins 30.222 secs
